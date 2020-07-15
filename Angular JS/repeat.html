@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test for ng-repeat</title>
+    <script src = "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+  </head>
+  <body>
+    <div ng-app ="appn" ng-controller = "ctrl">
+      <ul ng-repeat = "x in items">
+        <li>
+          {{x}}
+        </li>
+      </ul>
+    </div>
+    <script>
+      var c = angular.module("appn", []);
+      c.controller("ctrl", function($scope){
+        $scope.items = ["Telephone", "Earphone", "Grammaphone", "Xylophone"];
+      });
+    </script>
+  </body>
+</html>

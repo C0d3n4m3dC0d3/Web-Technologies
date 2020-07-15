@@ -1,0 +1,25 @@
+<!-- works -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Controller Basics</title>
+    <script src = "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+  </head>
+  <body>
+    <div ng-app="tester" ng-controller = "ctrl">
+      <label for "txt"> Enter some text here:&emsp;
+      <input type = "text" ng-model = "txt"><br>
+      <h2>
+        {{txt_disp()}}
+      </h2>
+    </div>
+    <script>
+      var c = angular.module("tester", []);
+      c.controller("ctrl", function($scope){
+        $scope.txt_disp = function(){
+          return $scope.txt;
+        };
+      });
+    </script>
+  </body>
+</html>

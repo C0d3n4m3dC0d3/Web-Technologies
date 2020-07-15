@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>Welcome to Hedwig's Crown!</title>
+    <link rel = "stylesheet" type = "text/css" href = "Css.css">
+  </head>
+  <body id = "bg3">
+   <table>
+    <tr>
+     <td rowspan = "2">
+       <img src = "HoggyWarty.png">
+     </td>
+    </tr>
+    <tr>
+     <td rowspan = "2">
+    	<h4>Enter your details below!</h4>
+    	<form name = "deets" action = "reg.php" method = "post">
+     	<label for "name">Name:&nbsp;</label>
+     	<input type  = "text" name = "name" maxlength = "30" size = "30"><br><br>
+   	<label for "age">Age:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+     	<input type = "text" name = "age" maxlength = "3" size = "30"><br><br>
+     	<label for "house">Select your house:</label><br>
+     	<input type = "radio" id = "gryff" name = "house" value = "Gryffindor">Gryffindor!<br>
+     	<input type = "radio" id = "huffl" name = "house" value = "Hufflepuff">Hufflepuff!<br>
+     	<input type = "radio" id = "raven" name = "house" value = "Ravenclaw">Ravenclaw!<br>
+     	<input type = "radio" id = "slyth" name = "house" value = "Slytherin">Slytherin!<br><br>
+     	<label for "pet">Which pet would you like? </label><br>
+     	<input type = "radio" name = "pet" value = "Rat">Rat<br>
+     	<input type = "radio" name = "pet" value = "Cat">Cat<br>
+     	<input type = "radio" name = "pet" value = "Owl">Owl<br>
+     	<input type = "radio" name = "pet" value = "Toad">Toad<br><br>
+     	<label for "duties">What are your duties?</label><br>
+     	<input type = "checkbox" id = "duties" name = "duty1" value = "Prefect">Prefect<br>
+     	<input type = "checkbox" id = "duties" name = "duty2" value = "Head Boy">Head Boy<br>
+     	<input type = "checkbox" id = "duties" name = "duty3" value = "Head Girl">Head Girl<br>
+     	<input type = "checkbox" id = "duties" name = "duty4" value = "Quidditch Captain">Quidditch Captain<br>
+     	<input type = "checkbox" id = "duties" name = "duty5" value = "Nothing">Meh! I got nuffin'<br><br>
+     	<input type = "submit" id = "sub" value = "Accio Profile!">
+    	</form>
+    </tr>
+   </table>
+  </body>
+</html>

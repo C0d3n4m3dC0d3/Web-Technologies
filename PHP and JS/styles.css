@@ -1,0 +1,35 @@
+.hot
+{
+  color: white;
+  background: red;
+}
+
+.cool
+{
+  color: black;
+  background: lightgreen;
+}
+
+.complete
+{
+  color: white;
+  background : gainsboro;
+}
+
+#body
+{
+  background: black;
+  margin: 19% 40%;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+li
+{
+  font-size: 25px;
+  margin:5%;
+  color: white;
+  background: orange;
+  font-weight: bold;
+}

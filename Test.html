@@ -1,0 +1,37 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>JArrays!</title>
+    <script type = "text/javascript">
+      function checkVal()
+      {
+       
+	var first = document.frm1.t1.value;
+
+	var fact = 0;
+	for(var i = 2; i<=first/2; i++)
+	 if(first%i == 0)
+	 {
+	   fact = 1;
+	   break;
+	 }
+	
+	if(first == 1)
+      	 document.frm1.t2.value = "Neither!";
+	else if(fact == 0)
+	document.frm1.t2.value = "Prime!";
+	else
+	document.frm1.t2.value = "Not Prime!";
+
+      }  
+    </script>
+  </head>
+  <body>
+    <h4>Check for prime!!!</h4>
+<form name="frm1">
+    Number: <input type = "text" maxlength = "25" name="t1"><br><br>
+    Output: <input type = "text" maxlength = "25" name="t2"><br><br>
+    <input type = "button" onclick = "checkVal()" value = "Check">
+</form>
+  </body>
+</html

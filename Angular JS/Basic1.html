@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Angular JS Final - Basics</title>
+    <script src = "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+  </head>
+  <body>
+    <div ng-app = "">
+      <label for "name">Enter your name:&emsp;</label>
+      <input type = "text" ng-model = "name" size = "30" maxlength = "25">
+      <br><br>
+      <h3 id = "msg" >
+        Howdy, {{name| uppercase}}!<br>
+        Seems like the 4th semester's about to end, eh?<br>
+        Good Luck!
+      </h3>
+      <br>
+    </div>
+  </body>
+</html>

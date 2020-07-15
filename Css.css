@@ -1,0 +1,55 @@
+#bg3
+{
+  display: block;
+  background-image: url("file:///C:/Users/KH.SC.I5MCA18040/Desktop/18040/Paper1.png");
+  background-attachment: fixed;
+  background-repeat: no repeat;
+  background-size: 100%;
+  margin: 2% 2% 2% 10%;
+  text-align: right;
+}
+img
+{
+  height: 500px;
+  width: 500px;
+  align: right;
+}
+.duty
+{
+  font-size: 14px;
+  color: white;  
+}
+
+
+label
+{
+  color: 660000;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h4
+{
+  font-size: 24px;
+  color: #FFE27A;
+}
+
+#sub
+{
+    height: 30px;
+    width: 100px;
+    color: #EFC050;
+    background-color: #E15D44;
+    font-size:14px;
+}
+
+table
+{
+ height: 100%;
+ width: 100%;
+}
+input
+{
+  font-size: 14px;
+  color: #EFC050;
+}
